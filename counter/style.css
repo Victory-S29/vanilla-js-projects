@@ -1,0 +1,42 @@
+body{
+    background-color: #56946a;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 10% auto 1% auto;
+    text-align: center;
+    font-size: 10vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(217, 250, 225);
+}
+
+#count{
+    margin: 1% auto 1% auto;
+    text-align: center;
+    font-size: 15vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#btn--div{
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   gap: 5%;
+}
+
+.btn{
+    min-width: 10vw;
+    min-height: 10vh;
+    padding: 1%;
+    background-color: #3a6347;
+    border:1px solid #203627;
+    color: rgb(217, 250, 225);
+    cursor: pointer;
+}
